@@ -24,7 +24,6 @@ const Panel = () => {
   const [form, setForm] = useState({});
   const [open, setOpen] = useState(false);
   const tasks = useSelector((state) => state.task);
-  console.log(tasks);
 
   useEffect(() => {
     dispatch(fetchTasks());
