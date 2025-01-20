@@ -43,8 +43,8 @@ Author: Derek Li
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone git@github.com:dailin7/Todo_App.git
+cd Todo_App
 ```
 
 ### 2. Set Up MongoDB Cluster
